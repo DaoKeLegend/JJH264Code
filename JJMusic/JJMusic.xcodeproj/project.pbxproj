@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DBC042A1FEFBE8A00F3E82B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBC04291FEFBE8A00F3E82B /* AppDelegate.m */; };
+		8DBC042D1FEFBE8A00F3E82B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBC042C1FEFBE8A00F3E82B /* ViewController.m */; };
+		8DBC04301FEFBE8A00F3E82B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DBC042E1FEFBE8A00F3E82B /* Main.storyboard */; };
+		8DBC04321FEFBE8A00F3E82B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DBC04311FEFBE8A00F3E82B /* Assets.xcassets */; };
+		8DBC04351FEFBE8A00F3E82B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DBC04331FEFBE8A00F3E82B /* LaunchScreen.storyboard */; };
+		8DBC04381FEFBE8A00F3E82B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DBC04371FEFBE8A00F3E82B /* main.m */; };
+		8DBC043F1FEFBEB100F3E82B /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8DBC043E1FEFBEB000F3E82B /* music.mp3 */; };
+		8DBC04401FEFC43F00F3E82B /* music.mp3 in Sources */ = {isa = PBXBuildFile; fileRef = 8DBC043E1FEFBEB000F3E82B /* music.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8DBC04251FEFBE8A00F3E82B /* JJMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DBC04281FEFBE8A00F3E82B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8DBC04291FEFBE8A00F3E82B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8DBC042B1FEFBE8A00F3E82B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8DBC042C1FEFBE8A00F3E82B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8DBC042F1FEFBE8A00F3E82B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8DBC04311FEFBE8A00F3E82B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DBC04341FEFBE8A00F3E82B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8DBC04361FEFBE8A00F3E82B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DBC04371FEFBE8A00F3E82B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8DBC043E1FEFBEB000F3E82B /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DBC04221FEFBE8A00F3E82B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DBC041C1FEFBE8A00F3E82B = {
+			isa = PBXGroup;
+			children = (
+				8DBC04271FEFBE8A00F3E82B /* JJMusic */,
+				8DBC04261FEFBE8A00F3E82B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DBC04261FEFBE8A00F3E82B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DBC04251FEFBE8A00F3E82B /* JJMusic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DBC04271FEFBE8A00F3E82B /* JJMusic */ = {
+			isa = PBXGroup;
+			children = (
+				8DBC04281FEFBE8A00F3E82B /* AppDelegate.h */,
+				8DBC04291FEFBE8A00F3E82B /* AppDelegate.m */,
+				8DBC042B1FEFBE8A00F3E82B /* ViewController.h */,
+				8DBC042C1FEFBE8A00F3E82B /* ViewController.m */,
+				8DBC042E1FEFBE8A00F3E82B /* Main.storyboard */,
+				8DBC043E1FEFBEB000F3E82B /* music.mp3 */,
+				8DBC04311FEFBE8A00F3E82B /* Assets.xcassets */,
+				8DBC04331FEFBE8A00F3E82B /* LaunchScreen.storyboard */,
+				8DBC04361FEFBE8A00F3E82B /* Info.plist */,
+				8DBC04371FEFBE8A00F3E82B /* main.m */,
+			);
+			path = JJMusic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DBC04241FEFBE8A00F3E82B /* JJMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DBC043B1FEFBE8A00F3E82B /* Build configuration list for PBXNativeTarget "JJMusic" */;
+			buildPhases = (
+				8DBC04211FEFBE8A00F3E82B /* Sources */,
+				8DBC04221FEFBE8A00F3E82B /* Frameworks */,
+				8DBC04231FEFBE8A00F3E82B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JJMusic;
+			productName = JJMusic;
+			productReference = 8DBC04251FEFBE8A00F3E82B /* JJMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DBC041D1FEFBE8A00F3E82B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = com.daoKeLegend;
+				TargetAttributes = {
+					8DBC04241FEFBE8A00F3E82B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 8DBC04201FEFBE8A00F3E82B /* Build configuration list for PBXProject "JJMusic" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DBC041C1FEFBE8A00F3E82B;
+			productRefGroup = 8DBC04261FEFBE8A00F3E82B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DBC04241FEFBE8A00F3E82B /* JJMusic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DBC04231FEFBE8A00F3E82B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DBC043F1FEFBEB100F3E82B /* music.mp3 in Resources */,
+				8DBC04351FEFBE8A00F3E82B /* LaunchScreen.storyboard in Resources */,
+				8DBC04321FEFBE8A00F3E82B /* Assets.xcassets in Resources */,
+				8DBC04301FEFBE8A00F3E82B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DBC04211FEFBE8A00F3E82B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DBC04401FEFC43F00F3E82B /* music.mp3 in Sources */,
+				8DBC042D1FEFBE8A00F3E82B /* ViewController.m in Sources */,
+				8DBC04381FEFBE8A00F3E82B /* main.m in Sources */,
+				8DBC042A1FEFBE8A00F3E82B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8DBC042E1FEFBE8A00F3E82B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DBC042F1FEFBE8A00F3E82B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8DBC04331FEFBE8A00F3E82B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DBC04341FEFBE8A00F3E82B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DBC04391FEFBE8A00F3E82B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8DBC043A1FEFBE8A00F3E82B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DBC043C1FEFBE8A00F3E82B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48E3LB8PD7;
+				INFOPLIST_FILE = JJMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daoKeLegend.cn.JJMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DBC043D1FEFBE8A00F3E82B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48E3LB8PD7;
+				INFOPLIST_FILE = JJMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daoKeLegend.cn.JJMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DBC04201FEFBE8A00F3E82B /* Build configuration list for PBXProject "JJMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DBC04391FEFBE8A00F3E82B /* Debug */,
+				8DBC043A1FEFBE8A00F3E82B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DBC043B1FEFBE8A00F3E82B /* Build configuration list for PBXNativeTarget "JJMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DBC043C1FEFBE8A00F3E82B /* Debug */,
+				8DBC043D1FEFBE8A00F3E82B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8DBC041D1FEFBE8A00F3E82B /* Project object */;
+}
